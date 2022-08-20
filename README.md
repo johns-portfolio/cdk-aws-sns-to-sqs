@@ -17,11 +17,11 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 ```
 npm install -g aws-cdk
 cdk init --language typescript
-npx cdk diff --profile cpnassignment --toolkit-stack-name cdk-aws-sns-to-sqs-stack
+npx cdk diff --profile cpnassignment
 ```
 
 # Deploy
 ```
-npx cdk bootstrap --profile cpnassignment --toolkit-stack-name cdk-aws-sns-to-sqs-stack
-npx cdk deploy --profile cpnassignment --toolkit-stack-name cdk-aws-sns-to-sqs-stack
+npx cdk bootstrap --profile cpnassignment
+npx cdk deploy --profile cpnassignment
 ```

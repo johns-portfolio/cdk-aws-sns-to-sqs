@@ -6,7 +6,7 @@
   },
   "scripts": {
     "build": "tsc & cdk synth",
-    "deploy": "cdk deploy --profile cpnassignment --toolkit-stack-name cdk-aws-sns-to-sqs-stack",
+    "deploy": "cdk deploy --profile cpnassignment",
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk"
